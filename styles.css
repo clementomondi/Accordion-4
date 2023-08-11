@@ -1,0 +1,145 @@
+/* Add CSS here */
+.body-container{
+    background-color:#f6f7fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    }
+    .container{
+    padding:30px;
+    background-color:white;
+    max-width:500px;
+    box-shadow: 0 0 5px 5px rgb(224, 222, 222);
+    border-radius:0.3em;
+    }
+    .container h1{
+    font-size:20px;
+    font-weight: 700;
+    padding-bottom:10px;
+    }
+    .container h2{
+    font-size:10px;
+    padding-bottom:30px;
+    }
+    .closet{
+    width:20px;
+    height:20px;
+    border-radius:7em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .content{
+    display: flex;
+    gap:10px;
+    border-bottom-width:2px;
+    height:40px;
+    }
+    .content h3{
+    font-size:11px;
+    }
+    .content-2 h3{
+    font-size:11px;
+    }
+    .closet-2{
+    width:20px;
+    height:20px;
+    border-radius:7em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .content-2{
+    display: flex;
+    gap:10px;
+    height:60px;
+    padding-top:20px;
+    }
+    .container h4{
+    font-size:11px;
+    margin-left: 30px;
+    }
+    .container p{
+    font-size:10px;
+    margin-left: 30px;
+    padding-bottom:15px;
+    }
+    button{
+    background-color: rgb(230, 230, 235);
+    width:20%;
+    height:20px;
+    border-radius:0.2em;
+    font-size:10px;
+    margin-left: 30px;
+    font-weight: 600;
+    }
+    .closet-3{
+    width:20px;
+    height:20px;
+    border-radius:7em;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .content-3{
+    display: flex;
+    gap:10px;
+    height:60px;
+    padding: 5px;
+    align-items: center;
+    margin-top:20px;
+    border-top-width:2px;
+    border-bottom-width:2px;
+    }
+    
+    .content-3 h5{
+    font-size: 10px;
+    }
+    
+    .hide-icon {
+        display: block;
+    }
+    
+    .show-icon {
+        display: none;
+    }
+    
+    
+    
+    @media screen and  (max-width:600px) {
+    .container{
+    padding:20px;
+    background-color:white;
+    width:90%;
+    box-shadow: 0 0 5px 5px rgb(224, 222, 222);
+    border-radius:0.3em;
+    }
+    .container h1{
+    font-size:10px;
+    }
+    .container h2{
+    font-size:7px;
+    }
+    .container h3{
+    font-size:10px;
+    font-weight:500;
+    }
+    .container h4{
+    font-size:10px;
+    font-weight:500;
+    }
+    .container p{
+    font-size:8px;
+    font-weight:500;
+    }
+    button{
+    font-size:8px;
+    }
+    .content-3 h5{
+    font-size: 10px;
+    }
+    }
